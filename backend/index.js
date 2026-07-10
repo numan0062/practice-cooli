@@ -78,4 +78,4 @@ app.delete('/api/delete/:id', (req, res) => {
     });
 })
 
-app.listen(PORT, ()=> console.log(`Server is listening at: http://localhost:${PORT}`));
+app.listen(PORT, "0.0.0.0", ()=> console.log(`Server is listening at: http://localhost:${PORT}`));
