@@ -9,10 +9,10 @@ app.use(cors());
 app.use(express.json());
 
 const onConnect = mysql.createConnection({
-    host: 'mysql',
-    user: 'root',
-    password: 'password',
-    database: 'testdb',
+    host: 'mysql://mysql:6rXz3YZRmtOBKaHjoUEWKwXGscfwuVbAO43Pfkqo3RuuXbjk788zsa3gQwU94VV9@o4gs7sitvjxw9o3dzicnvol2:3306/default',
+    user: 'mysql',
+    password: '6rXz3YZRmtOBKaHjoUEWKwXGscfwuVbAO43Pfkqo3RuuXbjk788zsa3gQwU94VV9',
+    database: 'default',
 	ssl: { rejectUnauthorized: true }  
 });
 
